@@ -92,5 +92,12 @@ namespace ToDoApp.web.Controllers
         }
 
 
+        [HttpGet("test")]
+        public IActionResult test(string keyword)
+        {
+
+            return Ok("test");
+        }
+
     }
 }
